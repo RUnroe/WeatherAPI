@@ -1,0 +1,67 @@
+#stage{
+    display:grid;
+    grid-template-rows: 40%;
+    grid-auto-rows: auto;
+    grid-template-columns: auto auto;
+    height:40vh;
+    width:30vw;
+}
+#stage > div{
+    margin-bottom: 1vh;
+}
+#image{
+    
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    background-color: #AAAAAA;
+}
+#currTemp{
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    text-align: center;
+    font-size: 24px;
+    font-family: Helvetica;
+}
+#weatherDesc{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    padding-bottom:1vh;
+}
+#high{
+    grid-column: 1;
+    grid-row:4;
+}
+#low{
+    grid-column: 2;
+    grid-row:4;
+}
+#sunrise{
+    grid-column: 1;
+    grid-row:5;
+}
+#sunset{
+    grid-column: 2;
+    grid-row:5;
+}
+.bodyText{
+    text-align: center;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+.bottomBorder{
+    border-bottom:1px solid black;
+}
+#date{
+    float:right;
+    margin-top:0;
+    margin:10px;
+    font-weight:bold;
+    display:inline;
+}
+#day{
+    float:left;
+    margin-top:0;
+    margin:10px;
+    font-weight:bold;
+    display:inline;
+}
