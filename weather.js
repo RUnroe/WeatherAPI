@@ -1,7 +1,7 @@
 //Global
 var weatherData;
-var apiKey = '8ba17c932f3f9e6b255aa048a991887e';
-var zip = '85208';
+var apiKey = ''; //This is where the API Key goes
+var zip = ''; //Zip code
 
 var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 
